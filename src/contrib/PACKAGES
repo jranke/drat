@@ -5,3 +5,12 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: mkin
+Version: 0.9.44.9000
+Depends: minpack.lm, rootSolve, inline, parallel
+Imports: stats, graphics, methods, FME, deSolve, R6
+Suggests: knitr, testthat, microbenchmark, ggplot2
+License: GPL
+MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
+NeedsCompilation: no
+
