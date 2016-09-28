@@ -1,3 +1,11 @@
+Package: chents
+Version: 0.2-3
+Imports: webchem, R6, grImport, yaml
+Suggests: knitr, testthat, PythonInR
+License: GPL
+MD5sum: 55086abc56ff4481390400200581a229
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
