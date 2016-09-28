@@ -5,6 +5,15 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: gWidgetsWWW2
+Version: 0.4-8
+Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
+        digest
+Suggests: markdown
+License: GPL (>= 3)
+MD5sum: af91fdc146227ac139a753124ea27c58
+NeedsCompilation: no
+
 Package: mkin
 Version: 0.9.44.9000
 Depends: minpack.lm, rootSolve, inline, parallel
