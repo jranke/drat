@@ -5,6 +5,15 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: gmkin
+Version: 0.6.7
+Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+MD5sum: a3d7ee187617038ba8f2a48a4491e72b
+NeedsCompilation: no
+
 Package: gWidgetsWWW2
 Version: 0.4-8
 Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
