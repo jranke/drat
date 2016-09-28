@@ -40,3 +40,12 @@ License: GPL
 MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
 NeedsCompilation: no
 
+Package: pfm
+Version: 0.3-8
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents
+License: GPL
+MD5sum: be2fce349cc5c7334f65336f63557dbd
+NeedsCompilation: no
+
