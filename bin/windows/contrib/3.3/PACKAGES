@@ -1,0 +1,6 @@
+Package: chents
+Version: 0.2-4
+Imports: webchem, R6, grImport, yaml
+Suggests: knitr, testthat, PythonInR
+License: GPL
+
