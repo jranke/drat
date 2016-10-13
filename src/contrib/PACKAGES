@@ -3,7 +3,7 @@ Version: 0.2-3
 Imports: webchem, R6, grImport, yaml
 Suggests: knitr, testthat, PythonInR
 License: GPL
-MD5sum: 4a93dedc163e0c5d37176254488d2e63
+MD5sum: ee95a6c147cd35fd3f71bdcd9668c9d9
 NeedsCompilation: no
 
 Package: drat
