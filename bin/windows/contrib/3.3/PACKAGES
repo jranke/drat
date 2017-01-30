@@ -18,3 +18,10 @@ Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
 Suggests: markdown
 License: GPL (>= 3)
 
+Package: pfm
+Version: 0.4-2
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+
