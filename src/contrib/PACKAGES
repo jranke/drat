@@ -46,6 +46,6 @@ Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
-MD5sum: 3354075fc1aeb9efe01b6ff8f8679243
+MD5sum: aaebf3bd92ceed1fae32d70e6c79dde3
 NeedsCompilation: no
 
