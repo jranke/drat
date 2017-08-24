@@ -1,5 +1,5 @@
 Package: pfm
-Version: 0.4-3
+Version: 0.4-4
 Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
