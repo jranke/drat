@@ -1,3 +1,17 @@
+Package: gmkin
+Version: 0.6.8
+Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+
+Package: gWidgetsWWW2
+Version: 0.4-8
+Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
+        digest
+Suggests: markdown
+License: GPL (>= 3)
+
 Package: pfm
 Version: 0.4-4
 Depends: R6, mkin
