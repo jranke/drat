@@ -28,7 +28,7 @@ Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
         digest
 Suggests: markdown
 License: GPL (>= 3)
-MD5sum: af91fdc146227ac139a753124ea27c58
+MD5sum: f2d5af7025c78c52f2fa46635d7a87f6
 NeedsCompilation: no
 
 Package: mkin
