@@ -13,7 +13,7 @@ Suggests: markdown
 License: GPL (>= 3)
 
 Package: pfm
-Version: 0.4-4
+Version: 0.4-6
 Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
