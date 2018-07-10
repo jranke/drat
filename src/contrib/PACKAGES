@@ -41,10 +41,10 @@ MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
 NeedsCompilation: no
 
 Package: pfm
-Version: 0.4-6
+Version: 0.5.1
 Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
-MD5sum: 2da120ad09cbc9fd3c0675001b5bc446
+MD5sum: 00d90458b4cb39da0632ac928a26d267
 NeedsCompilation: no
