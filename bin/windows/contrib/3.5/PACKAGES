@@ -1,3 +1,17 @@
+Package: gmkin
+Version: 0.6.9
+Depends: mkin (>= 0.9.47.1), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+
+Package: mkin
+Version: 0.9.47.3
+Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
+        rootSolve, inline, parallel
+Suggests: knitr, rbenchmark, tikzDevice, testthat
+License: GPL
+
 Package: pfm
 Version: 0.5.1
 Depends: R6, mkin
