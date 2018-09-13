@@ -15,11 +15,11 @@ NeedsCompilation: no
 
 Package: gmkin
 Version: 0.6.9
-Depends: mkin (>= 0.9.47.1), gWidgetsWWW2 (>= 0.4-7)
+Depends: mkin (>= 0.9.47.3), gWidgetsWWW2 (>= 0.4-7)
 Imports: R6, markdown, plyr
 Suggests: knitr, rmarkdown
 License: GPL
-MD5sum: d941473d193abbfd84d077dba9af473e
+MD5sum: 9973cfe263f0cbca05a17be619af8bc4
 NeedsCompilation: no
 
 Package: gWidgetsWWW2
