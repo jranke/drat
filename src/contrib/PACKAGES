@@ -32,12 +32,12 @@ MD5sum: f2d5af7025c78c52f2fa46635d7a87f6
 NeedsCompilation: no
 
 Package: mkin
-Version: 0.9.44.9000
-Depends: minpack.lm, rootSolve, inline, parallel
-Imports: stats, graphics, methods, FME, deSolve, R6
-Suggests: knitr, testthat, microbenchmark, ggplot2
+Version: 0.9.47.3
+Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
+        rootSolve, inline, parallel
+Suggests: knitr, rbenchmark, tikzDevice, testthat
 License: GPL
-MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
+MD5sum: 7b047633e93c9804b37f98526465d990
 NeedsCompilation: no
 
 Package: pfm
