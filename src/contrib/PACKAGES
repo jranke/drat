@@ -37,7 +37,7 @@ Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
         rootSolve, inline, parallel
 Suggests: knitr, rbenchmark, tikzDevice, testthat
 License: GPL
-MD5sum: 7b047633e93c9804b37f98526465d990
+MD5sum: c259dfda29c949d17a6e2b98b32c3081
 NeedsCompilation: no
 
 Package: pfm
