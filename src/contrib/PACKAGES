@@ -14,12 +14,12 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: gmkin
-Version: 0.6.8
-Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Version: 0.6.9
+Depends: mkin (>= 0.9.47.3), gWidgetsWWW2 (>= 0.4-7)
 Imports: R6, markdown, plyr
 Suggests: knitr, rmarkdown
 License: GPL
-MD5sum: 917e1b426a8c520335ab137a500b1a4d
+MD5sum: 9973cfe263f0cbca05a17be619af8bc4
 NeedsCompilation: no
 
 Package: gWidgetsWWW2
@@ -32,19 +32,19 @@ MD5sum: f2d5af7025c78c52f2fa46635d7a87f6
 NeedsCompilation: no
 
 Package: mkin
-Version: 0.9.44.9000
-Depends: minpack.lm, rootSolve, inline, parallel
-Imports: stats, graphics, methods, FME, deSolve, R6
-Suggests: knitr, testthat, microbenchmark, ggplot2
+Version: 0.9.47.3
+Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
+        rootSolve, inline, parallel
+Suggests: knitr, rbenchmark, tikzDevice, testthat
 License: GPL
-MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
+MD5sum: c259dfda29c949d17a6e2b98b32c3081
 NeedsCompilation: no
 
 Package: pfm
-Version: 0.4-4
+Version: 0.5.1
 Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
-MD5sum: fd781b2c2462f349f8b60c6d749e4a20
+MD5sum: 7944fcb1272005528340bafa2a0a4e4c
 NeedsCompilation: no
