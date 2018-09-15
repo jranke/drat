@@ -13,6 +13,14 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: drfit
+Version: 0.7.2
+Depends: R (>= 2.15.1)
+Imports: graphics, grDevices, MASS, drc, reshape2, qcc, odbc, DBI
+License: GPL (>= 2)
+MD5sum: 9d232afc2740a4aa51fa2ca4105022fe
+NeedsCompilation: no
+
 Package: gmkin
 Version: 0.6.9
 Depends: mkin (>= 0.9.47.3), gWidgetsWWW2 (>= 0.4-7)
