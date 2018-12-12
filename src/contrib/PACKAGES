@@ -14,11 +14,11 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: drfit
-Version: 0.7.2
+Version: 0.7.3
 Depends: R (>= 2.15.1)
 Imports: graphics, grDevices, MASS, drc, reshape2, qcc, odbc, DBI
 License: GPL (>= 2)
-MD5sum: 9d232afc2740a4aa51fa2ca4105022fe
+MD5sum: ca2bda6be7a661db60e089e4fb3d6bbd
 NeedsCompilation: no
 
 Package: gmkin
