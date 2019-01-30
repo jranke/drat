@@ -24,3 +24,9 @@ Depends: R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
+
+Package: rPELMO
+Version: 0.1.1
+Imports: pfm
+Suggests: PELMO.installeR, testthat
+License: GPL
