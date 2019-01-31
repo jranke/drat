@@ -56,3 +56,11 @@ Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
 MD5sum: 7944fcb1272005528340bafa2a0a4e4c
 NeedsCompilation: no
+
+Package: rPELMO
+Version: 0.1.1
+Imports: pfm
+Suggests: PELMO.installeR, testthat
+License: GPL
+MD5sum: 51f566d446484ee6da969800cbd02752
+NeedsCompilation: no
