@@ -19,10 +19,11 @@ Suggests: knitr, rbenchmark, tikzDevice, testthat
 License: GPL
 
 Package: pfm
-Version: 0.5.3
+Version: 0.5.4
 Depends: R6, mkin
 Imports: graphics, readr, methods
-Suggests: testthat, chents, magrittr, PELMO.installeR, rPELMO
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
 License: GPL
 
 Package: rPELMO
