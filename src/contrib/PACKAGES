@@ -55,7 +55,7 @@ Imports: graphics, readr, methods
 Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
         rPELMO, covr
 License: GPL
-MD5sum: cef947f4b93f33980a5a1d455e00be89
+MD5sum: a31a16468b03d0cab03099100f3de029
 NeedsCompilation: no
 
 Package: rPELMO
