@@ -12,3 +12,11 @@ Imports: stats, graphics, methods, deSolve, R6, inline, parallel, plyr,
 Suggests: knitr, rbenchmark, tikzDevice, testthat, rmarkdown, covr,
         vdiffr, benchmarkme, tibble
 License: GPL
+
+Package: pfm
+Version: 0.5.6
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
+License: GPL
