@@ -50,13 +50,13 @@ MD5sum: 2c4a1985445ac2efe1f84c93fa7de19c
 NeedsCompilation: no
 
 Package: pfm
-Version: 0.5.6
-Depends: R6, mkin
+Version: 0.5.7
+Depends: R (>= 3.5.0), R6, mkin
 Imports: graphics, readr, methods
 Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
         rPELMO, covr
 License: GPL
-MD5sum: 5c57e7b2d7a728ca8875e6fbbed760c8
+MD5sum: 9ee2186eb82a74b1cab20fba8ef1e6b0
 NeedsCompilation: no
 
 Package: rPELMO
