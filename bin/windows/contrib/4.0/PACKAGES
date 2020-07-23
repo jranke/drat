@@ -1,0 +1,7 @@
+Package: pfm
+Version: 0.5.8
+Depends: R (>= 3.5.0), R6, mkin (>= 0.9.50.2)
+Imports: graphics, readr, methods
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
+License: GPL
