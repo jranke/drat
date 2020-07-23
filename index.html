@@ -14,27 +14,39 @@
 <body>
   <div class="jumbotron">
     <div class="container">
-      <h2>drat: R Repositories made easy</h2>
+      <h2>drat repository of Johannes Ranke</h2>
     </div>
   </div>
   <div class="row"> &nbsp; </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h4><a href="https://github.com/jranke/drat/tree/gh-pages/src/contrib/PACKAGES">
-            Source packages in this drat Repo</a></h4>
+    <div class="container">
+      <p>You can make use of this repository by using the drat package.  Before
+      installing anything, you should update your R packages already installed,
+      e.g. by starting R, and pasting the command</p>
+      <div class="highlight highlight-source-m68k"><pre><span class="pl-e">update</span>.packages()</pre></div>
+      <p>or similar, depending on your R installation.</p>
+      <p>For installing e.g. gmkin or upgrading to the latest released version, please
+      install the drat package (if not already installed)</p>
+      <div class="highlight highlight-source-m68k"><pre><span class="pl-e">install</span>.packages(<span class="pl-s">"drat"</span>)</pre></div>
+      <p>add my repository</p>
+      <div class="highlight highlight-source-m68k"><pre><span class="pl-en">drat:</span>:addRepo(<span class="pl-s">"jranke"</span>)</pre></div>
+      <p>and install as usual</p>
+      <div class="highlight highlight-source-m68k"><pre><span class="pl-e">install</span>.packages(<span class="pl-s">"gmkin"</span>)</pre></div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4><a href="https://github.com/jranke/drat/tree/gh-pages/src/contrib/PACKAGES">
+              Source packages in this drat Repo</a></h4>
 
-        <h4><a href="https://github.com/jranke/drat/tree/gh-pages/bin/windows/contrib/">
-            Windows binary packages in this drat Repo</a></h4>
+          <h4><a href="https://github.com/jranke/drat/tree/gh-pages/bin/windows/contrib/">
+              Windows binary packages in this drat Repo</a></h4>
 
-        For <a href = "http://www.r-forge.r-project.org/R/?group_id=615">mkin, gmkin</a>
-        and <a href = "http://www.r-forge.r-project.org/R/?group_id=761">gWidgetsWWW2</a>,
-        binary packages may be available from R-forge. To check for windows
-        binary packages available here (e.g. the 
-        <a href="https://pkgdown.jrwb.de/pfm">pfm</a> package), visit the link above.</p>
+          For <a href = "http://www.r-forge.r-project.org/R/?group_id=615">mkin, gmkin</a>
+          and <a href = "http://www.r-forge.r-project.org/R/?group_id=761">gWidgetsWWW2</a>,
+          binary packages may be available from R-forge. To check for windows
+          binary packages available here (e.g. the 
+          <a href="https://pkgdown.jrwb.de/pfm">pfm</a> package), visit the link above.</p>
+        </div>
       </div>
-    </div>
-   </div>
+     </div>
    <div class="row"> &nbsp; </div>
    <footer class="footer">
      <div class="container">
