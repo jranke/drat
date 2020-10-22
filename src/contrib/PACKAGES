@@ -1,4 +1,12 @@
 Package: chents
+Version: 0.2-3
+Imports: webchem, R6, grImport, yaml
+Suggests: knitr, testthat, PythonInR
+License: GPL
+MD5sum: ee95a6c147cd35fd3f71bdcd9668c9d9
+NeedsCompilation: no
+
+Package: chents
 Version: 0.2-4
 Imports: webchem, R6, grImport, yaml
 Suggests: knitr, testthat, PythonInR
@@ -7,10 +15,25 @@ MD5sum: 06b8fd2c90a9d4a1ffa956afa1238b36
 NeedsCompilation: no
 
 Package: drat
+Version: 0.0.3.1
+Suggests: git2r, knitr
+License: GPL (>= 2)
+MD5sum: c11bf2eb3bd7168ed6f33e1c859744e3
+NeedsCompilation: no
+
+Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
 License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
+NeedsCompilation: no
+
+Package: drfit
+Version: 0.7.2
+Depends: R (>= 2.15.1)
+Imports: graphics, grDevices, MASS, drc, reshape2, qcc, odbc, DBI
+License: GPL (>= 2)
+MD5sum: 9d232afc2740a4aa51fa2ca4105022fe
 NeedsCompilation: no
 
 Package: drfit
@@ -30,6 +53,33 @@ License: GPL
 MD5sum: 9f32835cb73f132e4ac189e867f68823
 NeedsCompilation: no
 
+Package: gmkin
+Version: 0.6.7
+Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+MD5sum: a3d7ee187617038ba8f2a48a4491e72b
+NeedsCompilation: no
+
+Package: gmkin
+Version: 0.6.8
+Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+MD5sum: 917e1b426a8c520335ab137a500b1a4d
+NeedsCompilation: no
+
+Package: gmkin
+Version: 0.6.9
+Depends: mkin (>= 0.9.47.3), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+MD5sum: 9973cfe263f0cbca05a17be619af8bc4
+NeedsCompilation: no
+
 Package: gWidgetsWWW2
 Version: 0.4-8
 Depends: R (>= 2.13.0), methods, Rook, RJSONIO, memoise, whisker,
@@ -40,6 +90,24 @@ MD5sum: f2d5af7025c78c52f2fa46635d7a87f6
 NeedsCompilation: no
 
 Package: mkin
+Version: 0.9.44.9000
+Depends: minpack.lm, rootSolve, inline, parallel
+Imports: stats, graphics, methods, FME, deSolve, R6
+Suggests: knitr, testthat, microbenchmark, ggplot2
+License: GPL
+MD5sum: 4d896a6489a6cb0cb589869a70c6a6c6
+NeedsCompilation: no
+
+Package: mkin
+Version: 0.9.47.3
+Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
+        rootSolve, inline, parallel
+Suggests: knitr, rbenchmark, tikzDevice, testthat
+License: GPL
+MD5sum: c259dfda29c949d17a6e2b98b32c3081
+NeedsCompilation: no
+
+Package: mkin
 Version: 0.9.49.6
 Imports: stats, graphics, methods, deSolve, R6, inline, parallel, plyr,
         numDeriv
@@ -47,6 +115,100 @@ Suggests: knitr, rbenchmark, tikzDevice, testthat, rmarkdown, covr,
         vdiffr, benchmarkme, tibble
 License: GPL
 MD5sum: 2c4a1985445ac2efe1f84c93fa7de19c
+NeedsCompilation: no
+
+Package: nlme
+Version: 3.1-150.1
+Priority: recommended
+Depends: R (>= 3.4.0)
+Imports: graphics, stats, utils, lattice
+Suggests: Hmisc, MASS
+License: GPL (>= 2) | file LICENCE
+MD5sum: 93bd19884bc4feeb858cc414560f1ef5
+NeedsCompilation: yes
+
+Package: pfm
+Version: 0.3-8
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents
+License: GPL
+MD5sum: be2fce349cc5c7334f65336f63557dbd
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.4-2
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+MD5sum: aaebf3bd92ceed1fae32d70e6c79dde3
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.4-4
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+MD5sum: fd781b2c2462f349f8b60c6d749e4a20
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.4-6
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+MD5sum: 2da120ad09cbc9fd3c0675001b5bc446
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.5.1
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+MD5sum: 7944fcb1272005528340bafa2a0a4e4c
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.5.3
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, PELMO.installeR, rPELMO
+License: GPL
+MD5sum: 74465e6d42d73e076ce11923cad2bbda
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.5.4
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
+License: GPL
+MD5sum: f9cf5436396479ec317468b2e6202cb9
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.5.6
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
+License: GPL
+MD5sum: 5c57e7b2d7a728ca8875e6fbbed760c8
+NeedsCompilation: no
+
+Package: pfm
+Version: 0.5.7
+Depends: R (>= 3.5.0), R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, grImport, magrittr, PELMO.installeR,
+        rPELMO, covr
+License: GPL
+MD5sum: 9ee2186eb82a74b1cab20fba8ef1e6b0
 NeedsCompilation: no
 
 Package: pfm
