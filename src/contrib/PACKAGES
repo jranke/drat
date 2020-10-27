@@ -117,6 +117,17 @@ License: GPL
 MD5sum: 2c4a1985445ac2efe1f84c93fa7de19c
 NeedsCompilation: no
 
+Package: mkin
+Version: 0.9.50.4
+Imports: stats, graphics, methods, deSolve, R6, inline, parallel,
+        numDeriv, lmtest, pkgbuild, nlme (>= 3.1-150.1), purrr, saemix
+        (>= 3.1.9000)
+Suggests: knitr, rbenchmark, tikzDevice, testthat, rmarkdown, covr,
+        vdiffr, benchmarkme, tibble, stats4
+License: GPL
+MD5sum: dba43ead3f0b06a71da95e500617482d
+NeedsCompilation: no
+
 Package: nlme
 Version: 3.1-150.1
 Priority: recommended
