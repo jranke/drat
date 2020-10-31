@@ -1,4 +1,11 @@
 Package: gmkin
+Version: 0.6.8
+Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr
+Suggests: knitr, rmarkdown
+License: GPL
+
+Package: gmkin
 Version: 0.6.9
 Depends: mkin (>= 0.9.47.3), gWidgetsWWW2 (>= 0.4-7)
 Imports: R6, markdown, plyr
@@ -17,6 +24,27 @@ Version: 0.9.47.3
 Imports: stats, graphics, methods, FME, deSolve, R6, minpack.lm,
         rootSolve, inline, parallel
 Suggests: knitr, rbenchmark, tikzDevice, testthat
+License: GPL
+
+Package: pfm
+Version: 0.4-3
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+
+Package: pfm
+Version: 0.4-4
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
+License: GPL
+
+Package: pfm
+Version: 0.4-6
+Depends: R6, mkin
+Imports: graphics, readr, methods
+Suggests: testthat, chents, magrittr, R.utils, PELMO.installeR
 License: GPL
 
 Package: pfm

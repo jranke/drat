@@ -138,16 +138,6 @@ License: GPL (>= 2) | file LICENCE
 MD5sum: 93bd19884bc4feeb858cc414560f1ef5
 NeedsCompilation: yes
 
-Package: nlme
-Version: 3.1-151
-Priority: recommended
-Depends: R (>= 3.4.0)
-Imports: graphics, stats, utils, lattice
-Suggests: Hmisc, MASS
-License: GPL (>= 2) | file LICENCE
-MD5sum: 7b0b8073bb804ff703038040502ecbc2
-NeedsCompilation: yes
-
 Package: pfm
 Version: 0.3-8
 Depends: R6, mkin
