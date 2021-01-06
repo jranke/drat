@@ -215,3 +215,11 @@ Suggests: PELMO.installeR, testthat
 License: GPL
 MD5sum: 51f566d446484ee6da969800cbd02752
 NeedsCompilation: no
+
+Package: saemix
+Version: 3.1.9000
+Imports: graphics, stats, methods
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: eac7df2343c997398471d4528841eb15
+NeedsCompilation: no
