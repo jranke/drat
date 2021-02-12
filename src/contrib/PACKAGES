@@ -40,6 +40,15 @@ MD5sum: 9f32835cb73f132e4ac189e867f68823
 NeedsCompilation: no
 
 Package: gmkin
+Version: 0.6.11
+Depends: R (>= 3.5.0), mkin (>= 1.0.1), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr, devEMF
+Suggests: knitr, rmarkdown
+License: GPL
+MD5sum: 96823e5c612ba797a5a0c1f77b52ce7f
+NeedsCompilation: no
+
+Package: gmkin
 Version: 0.6.7
 Depends: mkin (> 0.9-40), gWidgetsWWW2 (>= 0.4-7)
 Imports: R6, markdown, plyr
