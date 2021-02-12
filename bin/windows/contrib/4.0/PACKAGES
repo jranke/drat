@@ -1,3 +1,10 @@
+Package: gmkin
+Version: 0.6.10
+Depends: mkin (>= 0.9.49.6), gWidgetsWWW2 (>= 0.4-7)
+Imports: R6, markdown, plyr, devEMF
+Suggests: knitr, rmarkdown
+License: GPL
+
 Package: pfm
 Version: 0.5.8
 Depends: R (>= 3.5.0), R6, mkin (>= 0.9.50.2)
