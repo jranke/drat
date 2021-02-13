@@ -5,6 +5,15 @@ Imports: R6, markdown, plyr, devEMF
 Suggests: knitr, rmarkdown
 License: GPL
 
+Package: mkin
+Version: 1.0.2
+Depends: R (>= 2.15.1), parallel
+Imports: stats, graphics, methods, deSolve, R6, inline (>= 0.3.17),
+        numDeriv, lmtest, pkgbuild, nlme (>= 3.1-151), purrr
+Suggests: knitr, rbenchmark, tikzDevice, testthat, rmarkdown, covr,
+        vdiffr, benchmarkme, tibble, stats4
+License: GPL
+
 Package: pfm
 Version: 0.5.8
 Depends: R (>= 3.5.0), R6, mkin (>= 0.9.50.2)
